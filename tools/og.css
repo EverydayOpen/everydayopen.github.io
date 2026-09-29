@@ -1,0 +1,6 @@
+.og { width: 1200px; height: 630px; overflow: hidden; background: radial-gradient(760px 380px at 50% 34%, #10131f, #05060A); }
+.og .mark-slot { position: absolute; left: 90px; top: 70px; width: 1020px; height: 280px; max-height: none; }
+.og-tag { position: absolute; left: 0; right: 0; top: 368px; text-align: center; font: 600 34px/1.2 var(--sans); letter-spacing: -.02em; color: #F2F4F8; }
+.og-apps { position: absolute; left: 0; right: 0; bottom: 64px; display: flex; justify-content: center; gap: 28px; }
+.og-apps li { display: flex; align-items: center; gap: 14px; padding: 12px 26px 12px 12px; border-radius: 22px; border: 1px solid rgba(255, 255, 255, .1); background: rgba(255, 255, 255, .04); color: #F2F4F8; font: 700 26px/1 var(--sans); letter-spacing: -.02em; }
+.og-apps img { width: 64px; height: 64px; }

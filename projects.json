@@ -1,0 +1,36 @@
+[
+  {
+    "id": "whydunit",
+    "name": "Whydunit",
+    "tagline": "Find out why your iCloud Drive files won't upload, and fix them without losing a thing.",
+    "requires": "macOS 15+",
+    "status": "Beta",
+    "version": "v0.1.0-beta.2",
+    "site": "https://everydayopen.github.io/whydunit/",
+    "source": "https://github.com/EverydayOpen/whydunit",
+    "download": "https://github.com/EverydayOpen/whydunit/releases",
+    "icon": "assets/whydunit.png",
+    "theme": "light",
+    "accent": "#2457E0",
+    "onAccent": "#FFFFFF",
+    "glow": "#5B86FF",
+    "glowLight": "#2457E0"
+  },
+  {
+    "id": "tirekick",
+    "name": "Tirekick",
+    "tagline": "Kick the tires on a used Mac before you pay: locks, battery, SSD, keys, screen and updates in two minutes.",
+    "requires": "macOS 13+",
+    "status": "Beta",
+    "version": "v0.1.0-beta.2",
+    "site": "https://everydayopen.github.io/tirekick/",
+    "source": "https://github.com/EverydayOpen/tirekick",
+    "download": "https://github.com/EverydayOpen/tirekick/releases",
+    "icon": "assets/tirekick.png",
+    "theme": "dark",
+    "accent": "#C6F23C",
+    "onAccent": "#0A0A09",
+    "glow": "#C6F23C",
+    "glowLight": "#6F9A00"
+  }
+]

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F4F5F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#05060A" media="(prefers-color-scheme: dark)">
+<title>EverydayOpen · Free, open-source Mac utilities</title>
+<meta name="description" content="EverydayOpen makes small, free, open-source utilities for macOS: Whydunit fixes iCloud Drive files that won't upload, Tirekick checks a used Mac before you pay. No accounts, no trackers.">
+<link rel="canonical" href="https://everydayopen.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EverydayOpen">
+<meta property="og:title" content="EverydayOpen · Free, open-source Mac utilities">
+<meta property="og:description" content="Small Mac tools that fix one real problem, explain themselves in plain English and keep your data on your Mac.">
+<meta property="og:url" content="https://everydayopen.github.io/">
+<meta property="og:image" content="https://everydayopen.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The EverydayOpen wordmark made of glowing particles, above the Whydunit and Tirekick app icons.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="EverydayOpen · Free, open-source Mac utilities">
+<meta name="twitter:description" content="Small Mac tools that fix one real problem, explain themselves in plain English and keep your data on your Mac.">
+<meta name="twitter:image" content="https://everydayopen.github.io/og.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+<script src="scene.js" defer></script>
+</head>
+<body>
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#3D6BFF"/>
+      <stop offset="1" stop-color="#C6F23C"/>
+    </linearGradient>
+  </defs>
+  <symbol id="mark" viewBox="0 0 32 32">
+    <circle cx="16" cy="16" r="10.5" fill="none" stroke="url(#ring)" stroke-width="5" stroke-linecap="round" stroke-dasharray="52 14" transform="rotate(-30 16 16)"/>
+    <circle cx="19.9" cy="6.3" r="2.6" fill="#C6F23C"/>
+  </symbol>
+  <symbol id="gh" viewBox="0 0 16 16">
+    <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.05-.49.05-.49.8.06 1.23.83 1.23.83.72 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#apps">Skip to the apps</a>
+
+<canvas id="scene" aria-hidden="true"></canvas>
+
+<div id="stage">
+  <header class="nav">
+    <a class="brand" href="./" aria-label="EverydayOpen home">
+      <svg width="26" height="26" aria-hidden="true"><use href="#mark"/></svg>
+      <span>EverydayOpen</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#apps">Apps</a>
+      <a href="#principles">Principles</a>
+      <a class="nav-gh" href="https://github.com/EverydayOpen" rel="noopener noreferrer"><svg width="16" height="16" aria-hidden="true"><use href="#gh"/></svg>GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="mark-slot" aria-hidden="true">
+        <p class="mark-fallback">Everyday<span>Open</span></p>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>An independent Mac software studio</p>
+        <h1 id="hero-title">Small Mac tools, <span class="grad">open to the core.</span></h1>
+        <p class="lede">EverydayOpen makes small, free, open-source utilities for macOS. Each one fixes a real problem, explains itself in plain English and keeps your data on your Mac.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#apps">Explore the apps<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M8 3v10m0 0 4-4m-4 4L4 9"/></svg></a>
+          <a class="btn btn-quiet" href="https://github.com/EverydayOpen" rel="noopener noreferrer"><svg width="17" height="17" aria-hidden="true"><use href="#gh"/></svg>Read the source</a>
+        </div>
+        <p class="fine">Free forever · No accounts · No trackers</p>
+      </div>
+      <a class="scroll-cue" href="#apps" tabindex="-1" aria-hidden="true"><span></span></a>
+    </section>
+
+    <section id="apps" class="apps" aria-labelledby="apps-title">
+      <div class="section-head">
+        <p class="kicker">The apps</p>
+        <h2 id="apps-title">Tools that do one job, properly.</h2>
+        <p class="sub">Every EverydayOpen app is free, open source and made for the Mac. Pick one up, or read every line first.</p>
+      </div>
+      <ul class="app-grid">
+<!-- apps:start -->
+<li class="app app--whydunit reveal" data-theme="light" data-glow="#5B86FF" data-glow-light="#2457E0">
+  <div class="app-head">
+    <img src="assets/whydunit.png" alt="Whydunit app icon" width="84" height="84" loading="lazy" decoding="async">
+    <div>
+      <h3><a href="https://everydayopen.github.io/whydunit/">Whydunit</a></h3>
+      <p class="app-meta"><span class="pill">Beta</span>macOS 15+ · Free</p>
+    </div>
+  </div>
+  <p class="app-tag">Find out why your iCloud Drive files won&#x27;t upload, and fix them without losing a thing.</p>
+  <div class="app-links">
+    <a class="btn btn-accent" href="https://github.com/EverydayOpen/whydunit/releases" rel="noopener noreferrer">Download<span class="sr"> Whydunit</span> <small>v0.1.0-beta.2</small></a>
+    <a class="btn btn-line" href="https://everydayopen.github.io/whydunit/">Website<span class="sr"> for Whydunit</span></a>
+    <a class="btn btn-text" href="https://github.com/EverydayOpen/whydunit" rel="noopener noreferrer"><svg width="16" height="16" aria-hidden="true"><use href="#gh"/></svg>Source<span class="sr"> code for Whydunit</span></a>
+  </div>
+</li>
+<li class="app app--tirekick reveal" data-theme="dark" data-glow="#C6F23C" data-glow-light="#6F9A00">
+  <div class="app-head">
+    <img src="assets/tirekick.png" alt="Tirekick app icon" width="84" height="84" loading="lazy" decoding="async">
+    <div>
+      <h3><a href="https://everydayopen.github.io/tirekick/">Tirekick</a></h3>
+      <p class="app-meta"><span class="pill">Beta</span>macOS 13+ · Free</p>
+    </div>
+  </div>
+  <p class="app-tag">Kick the tires on a used Mac before you pay: locks, battery, SSD, keys, screen and updates in two minutes.</p>
+  <div class="app-links">
+    <a class="btn btn-accent" href="https://github.com/EverydayOpen/tirekick/releases" rel="noopener noreferrer">Download<span class="sr"> Tirekick</span> <small>v0.1.0-beta.2</small></a>
+    <a class="btn btn-line" href="https://everydayopen.github.io/tirekick/">Website<span class="sr"> for Tirekick</span></a>
+    <a class="btn btn-text" href="https://github.com/EverydayOpen/tirekick" rel="noopener noreferrer"><svg width="16" height="16" aria-hidden="true"><use href="#gh"/></svg>Source<span class="sr"> code for Tirekick</span></a>
+  </div>
+</li>
+<!-- apps:end -->
+      </ul>
+      <aside class="next reveal">
+        <svg width="34" height="34" aria-hidden="true"><use href="#mark"/></svg>
+        <p><strong>Something new is in the workshop.</strong> Follow EverydayOpen on GitHub to hear about the next app first.</p>
+        <a class="btn btn-line btn-sm" href="https://github.com/EverydayOpen" rel="noopener noreferrer">Follow on GitHub</a>
+      </aside>
+    </section>
+  </main>
+</div>
+
+<section id="principles" class="principles" aria-labelledby="principles-title">
+  <div class="section-head">
+    <p class="kicker">How we build</p>
+    <h2 id="principles-title">Small apps with a few firm rules.</h2>
+  </div>
+  <ol class="rules">
+    <li class="rule reveal">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M17 7.5c0-1.9-2.2-3-5-3s-5 1.1-5 3 2.2 2.6 5 3 5 1.4 5 3.3-2.2 3.2-5 3.2-5-1.3-5-3.2"/></svg>
+      <h3>Free. Really.</h3>
+      <p>No trial, no paywall, no account, no upsell. The apps are free, and they stay free.</p>
+    </li>
+    <li class="rule reveal">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M13.5 4l-3 16"/></svg>
+      <h3>Open source</h3>
+      <p>Every line is on GitHub. Read it, build it yourself and check exactly what it does.</p>
+    </li>
+    <li class="rule reveal">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 8 7 9.5 4-1.5 7-5.2 7-9.5V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+      <h3>Private by default</h3>
+      <p>No analytics, no tracking, nothing sold. Your files and findings stay on your Mac.</p>
+    </li>
+    <li class="rule reveal">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5M8.5 11h5"/></svg>
+      <h3>Look before touching</h3>
+      <p>Explain first, in plain English. Change as little as possible, and back up before anything does.</p>
+    </li>
+  </ol>
+</section>
+
+<footer class="foot">
+  <div class="foot-brand">
+    <a class="brand" href="./">
+      <svg width="26" height="26" aria-hidden="true"><use href="#mark"/></svg>
+      <span>EverydayOpen</span>
+    </a>
+    <p>Free, open-source utilities for the Mac. This site has no cookies, no analytics and no trackers.</p>
+  </div>
+  <nav class="foot-links" aria-label="Footer">
+    <div>
+      <h2>Apps</h2>
+<!-- foot:start -->
+      <a href="https://everydayopen.github.io/whydunit/">Whydunit</a>
+      <a href="https://everydayopen.github.io/tirekick/">Tirekick</a>
+<!-- foot:end -->
+    </div>
+    <div>
+      <h2>Studio</h2>
+      <a href="https://github.com/EverydayOpen" rel="noopener noreferrer">GitHub</a>
+      <a href="#principles">Principles</a>
+      <a href="llms.txt">llms.txt</a>
+    </div>
+  </nav>
+  <p class="fine-print">© 2026 EverydayOpen. Mac, macOS and iCloud are trademarks of Apple Inc. EverydayOpen is not affiliated with Apple.</p>
+</footer>
+</body>
+</html>

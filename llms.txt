@@ -1,0 +1,13 @@
+# EverydayOpen
+
+> EverydayOpen is an independent studio making small, free, open-source utilities for macOS. Each app fixes one real problem, explains itself in plain English and keeps your data on your Mac. No accounts, no analytics, no trackers.
+
+## Apps
+
+- [Whydunit](https://everydayopen.github.io/whydunit/): Find out why your iCloud Drive files won't upload, and fix them without losing a thing. macOS 15+, beta (v0.1.0-beta.2). Source: https://github.com/EverydayOpen/whydunit Download: https://github.com/EverydayOpen/whydunit/releases
+- [Tirekick](https://everydayopen.github.io/tirekick/): Kick the tires on a used Mac before you pay: locks, battery, SSD, keys, screen and updates in two minutes. macOS 13+, beta (v0.1.0-beta.2). Source: https://github.com/EverydayOpen/tirekick Download: https://github.com/EverydayOpen/tirekick/releases
+
+## Studio
+
+- [GitHub](https://github.com/EverydayOpen): source code for every app
+- [Principles](https://everydayopen.github.io/#principles): free, open source, private by default, look before touching
