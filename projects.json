@@ -49,5 +49,22 @@
     "onAccent": "#1A1000",
     "glow": "#F2A93B",
     "glowLight": "#9A5B00"
+  },
+  {
+    "id": "aftertaste",
+    "name": "Aftertaste",
+    "tagline": "Find what an uninstalled Mac app left behind, see why, and move it to the Trash with Undo. Free, open source, honest about what no app can erase.",
+    "requires": "macOS 13+",
+    "status": "Beta",
+    "version": "v0.1.0-beta.1",
+    "site": "https://everydayopen.github.io/aftertaste/",
+    "source": "https://github.com/EverydayOpen/aftertaste",
+    "download": "https://github.com/EverydayOpen/aftertaste/releases",
+    "icon": "assets/aftertaste.png",
+    "theme": "dark",
+    "accent": "#A99BFF",
+    "onAccent": "#120B2E",
+    "glow": "#A99BFF",
+    "glowLight": "#5A44C4"
   }
 ]
