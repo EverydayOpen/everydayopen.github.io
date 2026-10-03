@@ -6,6 +6,7 @@
 
 - [Whydunit](https://everydayopen.github.io/whydunit/): Find out why your iCloud Drive files won't upload, and fix them without losing a thing. macOS 15+, beta (v0.1.0-beta.2). Source: https://github.com/EverydayOpen/whydunit Download: https://github.com/EverydayOpen/whydunit/releases
 - [Tirekick](https://everydayopen.github.io/tirekick/): Kick the tires on a used Mac before you pay: locks, battery, SSD, keys, screen and updates in two minutes. macOS 13+, beta (v0.1.0-beta.2). Source: https://github.com/EverydayOpen/tirekick Download: https://github.com/EverydayOpen/tirekick/releases
+- [Overstay](https://everydayopen.github.io/overstay/): Find and stop the processes your AI coding agents left running. Free, open source, no permissions. macOS 13+, beta (v0.1.0-beta.1). Source: https://github.com/EverydayOpen/overstay Download: https://github.com/EverydayOpen/overstay/releases
 
 ## Studio
 

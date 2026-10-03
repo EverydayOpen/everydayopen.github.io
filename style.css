@@ -188,6 +188,7 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 /* apps:start */
 .app--whydunit { --accent: #2457E0; --on-accent: #FFFFFF; --glow: #5B86FF; }
 .app--tirekick { --accent: #C6F23C; --on-accent: #0A0A09; --glow: #C6F23C; }
+.app--overstay { --accent: #F2A93B; --on-accent: #1A1000; --glow: #F2A93B; }
 /* apps:end */
 
 /* Principles */

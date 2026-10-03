@@ -32,5 +32,22 @@
     "onAccent": "#0A0A09",
     "glow": "#C6F23C",
     "glowLight": "#6F9A00"
+  },
+  {
+    "id": "overstay",
+    "name": "Overstay",
+    "tagline": "Find and stop the processes your AI coding agents left running. Free, open source, no permissions.",
+    "requires": "macOS 13+",
+    "status": "Beta",
+    "version": "v0.1.0-beta.1",
+    "site": "https://everydayopen.github.io/overstay/",
+    "source": "https://github.com/EverydayOpen/overstay",
+    "download": "https://github.com/EverydayOpen/overstay/releases",
+    "icon": "assets/overstay.png",
+    "theme": "dark",
+    "accent": "#F2A93B",
+    "onAccent": "#1A1000",
+    "glow": "#F2A93B",
+    "glowLight": "#9A5B00"
   }
 ]
